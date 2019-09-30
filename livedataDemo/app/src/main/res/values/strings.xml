@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">livedataDemo</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="insert_one">添加一个用户</string>
+    <string name="insert_some">添加一些用户</string>
+    <string name="update_one">更新一个</string>
+    <string name="find_one">查询一个</string>
+    <string name="find_all">查询全部</string>
+    <string name="delete_one">删除一个</string>
+    <string name="delete_all">删除全部</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="user"
+            type="com.testleancould.dodo.wanzitest.bean.UserBean" />
+
+        <variable
+            name="activity"
+            type="com.testleancould.dodo.wanzitest.mvvm.MvvmActivty" />
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_marginTop="30dp"
+            android:hint="请输入名字"
+            android:text="@={user.name}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            tools:text="adam"
+            android:text="@{user.name+'|'+String.valueOf(user.age)}"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="onclick"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            tools:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</layout>

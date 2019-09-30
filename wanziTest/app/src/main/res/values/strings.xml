@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">wanziTest</string>
+    <string name="policy"></string>
+    <string name="behavior_sample_title">com.testleancould.dodo.wanzitest.Behavior.SampleTitleBehavior;</string>
+</resources>

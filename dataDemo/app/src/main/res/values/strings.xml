@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dataDemo</string>
+    <string name="SharedPreferences">SharedPreferences</string>
+    <string name="IO">IO流</string>
+    <string name="SQLite">SQLite</string>
+    <string name="ContentProvider">contentProvider</string>
+    <string name="data_web">网络存储</string>
+    <string name="save_str">存储</string>
+    <string name="read_str">读取</string>
+
+</resources>

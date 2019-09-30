@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/skipBtn"
+        android:text="跳过"
+        android:background="@drawable/button_1alpha"
+        android:layout_gravity="right"
+        android:textColor="#FFE6E6E6"
+        android:layout_marginRight="15dp"
+        android:layout_width="45dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="52dp"
+        android:orientation="vertical"
+        android:background="@mipmap/back"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title1"
+            android:textSize="20sp"
+            android:text="输入手机号登录"
+            android:textColor="#FFFFFFFF"
+            android:layout_width="140dp"
+            android:layout_height="28dp"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:textSize="12sp"
+            android:text="快去探索你喜欢的频道吧"
+            android:textColor="#FFFFFFFF"
+            android:alpha="0.6"
+            android:layout_width="132dp"
+            android:layout_height="17dp"/>
+
+        <LinearLayout
+            android:background="@drawable/button_radius"
+            android:layout_marginTop="24dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp">
+            <TextView
+
+                android:text="+"
+                android:textColor="#FF222222"
+                android:textSize="16sp"
+                android:layout_marginLeft="22dp"
+                android:layout_width="10dp"
+                android:layout_height="23dp"/>
+            <TextView
+                android:text="86"
+                android:textColor="#FF222222"
+                android:textSize="16sp"
+                android:layout_width="20dp"
+                android:layout_height="23dp"/>
+            <EditText
+                android:hint="请输入手机号"
+                android:textColorHint="#FFE6E6E6"
+                android:textColor="#FFE6E6E6"
+                android:textCursorDrawable="@null"
+                android:showDividers="none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nexBtn"
+            android:text="下一步"
+            android:textColor="#FFE6E6E6"
+            android:background="@drawable/button_2alpha"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_height="17dp">
+            <TextView
+                android:text="进入丸子代表你同意"
+                android:textColor="#FFE6E6E6"
+                android:textSize="12sp"
+                android:alpha="0.6"
+                android:layout_width="108dp"
+                android:layout_height="17dp"/>
+            <TextView
+                android:text="《丸子用户协议》\&amp;《隐私协议》"
+                android:textColor="#FFE6E6E6"
+                android:textSize="12sp"
+                android:layout_width="177dp"
+                android:layout_height="17dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:alpha="0.3"
+                android:background="#ffffffff"
+                android:layout_gravity="center_vertical"
+                android:layout_width="100dp"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="14dp"
+                android:layout_height="20dp"
+                android:text="或"
+                android:textColor="#ffffffff"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:alpha="0.3"
+                android:background="#ffffffff"
+                android:layout_gravity="center_vertical"
+                android:layout_width="100dp"
+                android:layout_height="1dp"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="12dp"
+            android:text="手机一键登录（4G网络）"
+            android:background="@drawable/button_yellow"
+            android:textSize="16sp"
+            android:textColor="#FF222222"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

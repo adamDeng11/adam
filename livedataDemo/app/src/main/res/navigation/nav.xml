@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment32">
+    <fragment
+        android:id="@+id/mainFragment32"
+        android:name="com.testleancould.dodo.livedatademo.ui.main.MainFragment3"
+        android:label="main_fragment3"
+        tools:layout="@layout/main_fragment3" >
+        <action
+            android:id="@+id/action_mainFragment32_to_mainFragment4"
+            app:destination="@id/mainFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment4"
+        android:name="com.testleancould.dodo.livedatademo.ui.main.MainFragment4"
+        android:label="main_fragment4"
+        tools:layout="@layout/main_fragment4" >
+        <action
+            android:id="@+id/action_mainFragment4_to_mainFragment32"
+            app:destination="@id/mainFragment32" />
+    </fragment>
+</navigation>

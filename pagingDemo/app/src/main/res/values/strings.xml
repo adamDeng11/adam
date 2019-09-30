@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pagingDemo</string>
+    <string name="title">接口内容</string>
+    <string name="author"></string>
+    <string name="content"></string>
+    <string name="request">请求</string>
+</resources>

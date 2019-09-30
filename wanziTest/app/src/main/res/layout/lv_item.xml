@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ff100D1F"
+    >
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/oval"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        />
+
+    <ImageView
+        android:layout_marginLeft="13dp"
+        android:id="@+id/line_normal"
+        android:layout_width="2dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/oval"
+
+        />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:id="@+id/time_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/oval"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp" />
+    <TextView
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="28dp"
+        android:id="@+id/title"
+        android:layout_below="@id/time_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/image_show"
+        android:layout_below="@id/time_show"
+        android:layout_width="120dp"
+        android:layout_height="93dp"/>
+
+    <TextView
+        android:textColor="#FFEB3B"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/time_show"
+        android:id="@+id/play_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"/>
+    <ImageView
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/play_txt"
+        android:id="@+id/paly_img"
+        android:layout_width="30dp"
+        android:layout_height="17dp"/>
+</RelativeLayout>

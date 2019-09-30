@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="345dp"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="#FF282536"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="5dp"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:padding="15dp"
+                android:src="@mipmap/rectangle19"
+                android:layout_width="76dp"
+                android:layout_height="76dp"/>
+            <LinearLayout
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="138dp"
+                    android:layout_height="23dp"
+                    android:text="俏九州6人聚餐活动"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="3dp"
+                        android:src="@mipmap/time"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"/>
+                    <TextView
+                        android:alpha="0.6"
+                        android:layout_width="157dp"
+                        android:layout_height="15dp"
+                        android:text="活动时间：2019年9月8日 19:00"
+                        android:textColor="#ffffffff"
+                        android:textSize="11sp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="3dp"
+                        android:src="@mipmap/location"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"/>
+                    <TextView
+                        android:alpha="0.6"
+                        android:layout_width="247dp"
+                        android:layout_height="15dp"
+                        android:text="东湖街道太宁路8号喜荟城购物中心二层228号店铺"
+                        android:textColor="#ffffffff"
+                        android:textSize="11sp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="11dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@mipmap/rectangle19"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="40dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="60dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="80dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="100dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            />
+                    </FrameLayout>
+
+                    <Button
+                        android:layout_marginLeft="25dp"
+                        android:text="报名"
+                        android:textColor="#FFFFFFFF"
+                        android:background="#FFFF6B7D"
+                        android:layout_width="75dp"
+                        android:layout_height="30dp">
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="345dp"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="#FF282536"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="5dp"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="15dp"
+                android:src="@mipmap/rectangle19"
+                android:layout_width="76dp"
+                android:layout_height="76dp"/>
+            <LinearLayout
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="138dp"
+                    android:layout_height="23dp"
+                    android:text="俏九州6人聚餐活动"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="3dp"
+                        android:src="@mipmap/time"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"/>
+                    <TextView
+                        android:alpha="0.6"
+                        android:layout_width="157dp"
+                        android:layout_height="15dp"
+                        android:text="活动时间：2019年9月8日 19:00"
+                        android:textColor="#ffffffff"
+                        android:textSize="11sp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="3dp"
+                        android:src="@mipmap/location"
+                        android:layout_width="11dp"
+                        android:layout_height="11dp"/>
+                    <TextView
+                        android:alpha="0.6"
+                        android:layout_width="247dp"
+                        android:layout_height="15dp"
+                        android:text="东湖街道太宁路8号喜荟城购物中心二层228号店铺"
+                        android:textColor="#ffffffff"
+                        android:textSize="11sp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="11dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="40dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="60dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="80dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"/>
+                        <ImageView
+                            android:layout_marginLeft="100dp"
+                            android:src="@mipmap/rectangle19"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            />
+                    </FrameLayout>
+
+                    <Button
+                        android:layout_marginLeft="25dp"
+                        android:text="报名"
+                        android:textColor="#FFFFFFFF"
+                        android:background="#FFFF6B7D"
+                        android:layout_width="75dp"
+                        android:layout_height="30dp">
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/share_add"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="45dp"
+        android:layout_height="45dp"/>
+
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

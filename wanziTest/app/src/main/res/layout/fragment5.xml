@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <androidx.cardview.widget.CardView
+       app:cardCornerRadius="5dp"
+       app:cardBackgroundColor="#282536FF"
+       android:layout_width="345dp"
+       android:layout_height="95dp">
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <androidx.cardview.widget.CardView
+               app:cardCornerRadius="7dp"
+               android:layout_marginTop="13dp"
+               android:layout_marginLeft="12dp"
+               android:layout_width="52dp"
+               android:layout_height="52dp">
+               <ImageView
+
+                   android:src="@mipmap/shop_bg"
+                   android:layout_width="52dp"
+                   android:layout_height="52dp"/>
+           </androidx.cardview.widget.CardView>
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <TextView
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="16dp"
+                   android:layout_width="192dp"
+                   android:layout_height="23dp"
+                   android:text="俏九州湘西菜（壹方城店）"
+                   android:textColor="#ffffffff"
+                   android:textSize="16sp"
+                   />
+               <TextView
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="3dp"
+                   android:layout_width="105dp"
+                   android:layout_height="15dp"
+                   android:text="大屏数：6    活动：5"
+                   android:textColor="#ffffffff"
+                   android:textSize="11sp"
+                   />
+               <LinearLayout
+                   android:layout_marginLeft="8dp"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <Button
+                       android:layout_marginTop="4dp"
+                       android:background="@mipmap/location"
+                       android:layout_width="11dp"
+                       android:layout_height="12dp"/>
+                   <TextView
+                       android:layout_marginLeft="5dp"
+                       android:layout_width="247dp"
+                       android:layout_height="47dp"
+                       android:text="东湖街道太宁路8号喜荟城购物中心二层228号商铺"
+                       android:textColor="#ffdddddd"
+                       android:textSize="11sp"
+                       />
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#282536FF"
+        android:layout_width="345dp"
+        android:layout_height="95dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="7dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="52dp"
+                android:layout_height="52dp">
+                <ImageView
+                    android:src="@mipmap/shop_bg"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="192dp"
+                    android:layout_height="23dp"
+                    android:text="俏九州湘西菜（壹方城店）"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp"
+                    />
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="105dp"
+                    android:layout_height="15dp"
+                    android:text="大屏数：6    活动：5"
+                    android:textColor="#ffffffff"
+                    android:textSize="11sp"
+                    />
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="11dp"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@mipmap/location" />
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="247dp"
+                        android:layout_height="47dp"
+                        android:text="东湖街道太宁路8号喜荟城购物中心二层228号商铺"
+                        android:textColor="#ffdddddd"
+                        android:textSize="11sp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

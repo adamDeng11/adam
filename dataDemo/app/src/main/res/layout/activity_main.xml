@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+//android:textAllCaps="false"取消按钮英文自动大写
+    <Button
+    android:textAllCaps="false"
+    android:text="@string/SharedPreferences"
+    android:id="@+id/btn_shared"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:text="@string/IO"
+        android:id="@+id/btn_io"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:text="@string/SQLite"
+        android:id="@+id/btn_sql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textAllCaps="false"
+        android:text="@string/ContentProvider"
+        android:id="@+id/btn_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="@string/data_web"
+        android:id="@+id/btn_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
