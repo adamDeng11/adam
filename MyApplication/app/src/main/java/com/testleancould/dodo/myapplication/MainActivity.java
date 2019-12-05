@@ -70,14 +70,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String query) {
 
-
-
                 Intent intent2=new Intent();
                 intent2.putExtra("name2",query);
                 intent2.setClass(MainActivity.this,SearchActivity.class);
                 MainActivity.this.startActivity(intent2);
-
-
 
                 return true;
             }

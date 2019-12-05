@@ -31,7 +31,7 @@ public class MessageDataSource extends PositionalDataSource<Message.ResultBean> 
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())//返回的数据经过转换工厂转换成我们想要的数据，最常用的就是Gson
             .build();
-    private final   RetrofitService mService;
+    private final RetrofitService mService;
 
     public MessageDataSource() {
         mService = retrofit.create(RetrofitService.class);

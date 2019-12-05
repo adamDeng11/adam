@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.paging.PagedList;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(timeAdapter);
 
         //设置布局管理器
+
         LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -79,8 +81,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String url="http://p1.pstatp.com/large/166200019850062839d3";
                 Glide.with(getApplicationContext()).load(url).into(imageView);
-
-
 
             }
         });

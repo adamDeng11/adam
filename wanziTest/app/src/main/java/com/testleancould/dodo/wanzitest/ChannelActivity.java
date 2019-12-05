@@ -63,7 +63,6 @@ public class ChannelActivity extends AppCompatActivity {
             //getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
         }
 
-        myTab=(TabLayout)findViewById(R.id.mytab);
         /*myTab.addTab(myTab.newTab().setText("活动").setIcon(R.mipmap.ic_launcher));
         myTab.addTab(myTab.newTab().setText("卡卷").setIcon(R.mipmap.ic_launcher));
         myTab.addTab(myTab.newTab().setText("节目").setIcon(R.mipmap.ic_launcher));
@@ -77,6 +76,7 @@ public class ChannelActivity extends AppCompatActivity {
 
             }
         });*/
+        myTab=(TabLayout)findViewById(R.id.mytab);
 
         myTab.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

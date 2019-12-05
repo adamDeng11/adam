@@ -27,7 +27,6 @@
             android:queryBackground="@null"
             android:showDividers="none"
             android:submitBackground="@null"
-
             android:queryHint="请输入搜索内容" />
         <ListView
             android:id="@+id/listview"
